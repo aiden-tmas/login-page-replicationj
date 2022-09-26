@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+
+    <title>Login Page</title>
+  </head>
+
+  <body>
+    <div class="page-container">
+      <div class="header-container">
+        <div class="navbar-container">
+          <div class="navbar-text">Welcome!</div>
+        </div>
+      </div>
+
+      <div class="page-body-container">
+        <div class="page-body-left">
+          <div class="hero-container">
+            <img
+              src="./assets/images/daniel-korpai-HyTwtsk8XqA-unsplash.jpg"
+              alt="powered-on-macbook-open-on-table"
+            />
+          </div>
+        </div>
+
+        <div class="page-body-right">
+          <div class="form-container">
+            <h1>Login</h1>
+
+            <form
+              class="form-elements-wrapper"
+              action="https://httpbin.org/post"
+              method="post"
+              target="_blank"
+            >
+              <div class="email-element">
+                <i class="fas fa-at"></i>&nbsp;<input
+                  type="email"
+                  placeholder="email"
+                  required="required"
+                />
+              </div>
+              <br />
+              <div class="password-element">
+                <i class="fas fa-lock"></i>&nbsp;<input
+                  type="password"
+                  placeholder="password"
+                  required="required"
+                />
+              </div>
+              <br />
+              <div class="submit-button">
+                &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Submit" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
